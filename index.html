@@ -8,64 +8,18 @@
     /* Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    /* Background with subtle nanotech lines effect */
     body {
       font-family: 'Arial', sans-serif;
       background-color: #000;
+      background-image:
+        repeating-linear-gradient(45deg, rgba(212,175,55,0.05) 0, rgba(212,175,55,0.05) 1px, transparent 1px, transparent 20px),
+        repeating-linear-gradient(-45deg, rgba(212,175,55,0.05) 0, rgba(212,175,55,0.05) 1px, transparent 1px, transparent 20px);
       color: #fff;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       min-height: 100vh;
       padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      color: #d4af37;
-      font-size: 2.5em;
-      margin-bottom: 40px;
-    }
-
-    .links {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 400px;
-    }
-
-    a {
-      display: block;
-      text-decoration: none;
-      color: #000;
-      background-color: #d4af37;
-      padding: 20px 0;
-      margin: 12px 0;
-      font-size: 1.2em;
-      font-weight: bold;
-      border-radius: 15px;
-      transition: all 0.2s ease-in-out;
-    }
-
-    a:hover {
-      background-color: #bfa130;
-      transform: scale(1.05);
-    }
-
-    /* Optional: make it fill full height proportionally */
-    @media (max-width: 500px) {
-      h1 { font-size: 2em; margin-bottom: 30px; }
-      a { font-size: 1.1em; padding: 18px 0; }
-    }
-  </style>
-</head>
-<body>
-  <h1>Nat Legendary</h1>
-  <div class="links">
-    <a href="https://t.me/+0Bqlz0CxvP9iYmNk" target="_blank">📬 Telegram</a>
-    <a href="https://wa.me/2347089816678" target="_blank">💬 WhatsApp</a>
-    <a href="https://www.instagram.com/natlegendary?igsh=YjZ5bm5pYmg1eHk3" target="_blank">📸 Instagram</a>
-    <a href="https://www.tiktok.com/@legendary.nat?_r=1&_t=ZS-91aq7EsjE3U" target="_blank">🎵 TikTok</a>
-  </div>
-</body>
-</html>
+      text-align: center
