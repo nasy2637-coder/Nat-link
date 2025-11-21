@@ -22,4 +22,56 @@
       justify-content: center;
       min-height: 100vh;
       padding: 20px;
-      text-align: center
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #d4af37; /* Matte gold title */
+      margin-bottom: 50px;
+      text-shadow: 0 0 10px rgba(212,175,55,0.7);
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      background-color: #d4af37; /* Matte gold buttons */
+      padding: 20px 0;
+      margin: 15px 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      border-radius: 15px;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 4px 15px rgba(212,175,55,0.3);
+    }
+
+    a:hover {
+      background-color: #bfa130;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(212,175,55,0.5);
+    }
+
+    @media (max-width: 500px) {
+      h1 { font-size: 2.5em; margin-bottom: 40px; }
+      a { font-size: 1.3em; padding: 18px 0; margin: 12px 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Nat Legendary</h1>
+  <div class="links">
+    <a href="https://t.me/+0Bqlz0CxvP9iYmNk" target="_blank">📬 Telegram</a>
+    <a href="https://wa.me/2347089816678" target="_blank">💬 WhatsApp</a>
+    <a href="https://www.instagram.com/natlegendary?igsh=YjZ5bm5pYmg1eHk3" target="_blank">📸 Instagram</a>
+    <a href="https://www.tiktok.com/@legendary.nat?_r=1&_t=ZS-91aq7EsjE3U" target="_blank">🎵 TikTok</a>
+  </div>
+</body>
+</html>
